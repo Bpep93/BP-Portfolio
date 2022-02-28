@@ -1,0 +1,26 @@
+.header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 7% 2%;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: Roboto;
+      font-size: 2.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.2rem;
+    }
+  }
+}
