@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 
-import "./resume.styles.scss";
+import "./work.styles.scss";
 
-export default function Resume() {
+export default function WorkPage() {
   useEffect(() => {
     document.body.className = "bodySection";
     const options = document.body.children[1].firstChild.children[1].children;

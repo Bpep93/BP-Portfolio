@@ -11,9 +11,6 @@ const Header = () => (
       <Logo className="logo" />
     </Link>
     <div className="options">
-      <Link className="option" to="/aboutme">
-        About
-      </Link>
       <Link className="option" to="/work">
         Work
       </Link>

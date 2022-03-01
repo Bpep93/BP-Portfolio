@@ -1,20 +1,25 @@
 .intro {
   width: 50%;
-  display: block;
+  display: inline-block;
   justify-content: center;
 
   .intro-title {
     width: 75%;
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     margin: auto;
   }
 
   .intro-para {
     width: 75%;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: auto;
-    margin-top: 7%;
+    margin-top: 5%;
   }
+}
+.side-img {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
 }
