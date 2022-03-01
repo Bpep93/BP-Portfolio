@@ -1,0 +1,20 @@
+.intro {
+  width: 50%;
+  display: block;
+  justify-content: center;
+
+  .intro-title {
+    width: 75%;
+    text-align: center;
+    font-size: 3.8rem;
+    margin: auto;
+  }
+
+  .intro-para {
+    width: 75%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: auto;
+    margin-top: 7%;
+  }
+}

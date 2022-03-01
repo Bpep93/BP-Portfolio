@@ -5,13 +5,14 @@ import AboutMe from "./pages/about/about-me.component";
 import "./App.css";
 
 import Header from "./components/header/header.component";
+import Homepage from "./pages/homepage/homepage.component";
 
 function App() {
   return (
     <>
       <Header />
       <Switch>
-        <Route exact path="/" />
+        <Route exact path="/" component={Homepage} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/work" />
         <Route path="/resume" />

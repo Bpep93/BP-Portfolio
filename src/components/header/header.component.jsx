@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { ReactComponent as Logo } from "../../assets/E901570B2F4B410AAF54EE1229E69D40.svg";
+import { ReactComponent as Logo } from "../../assets/BP-Logo.svg";
 
 import "./header.styles.scss";
 
