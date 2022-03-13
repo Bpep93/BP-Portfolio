@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useLayoutEffect } from "react";
 
-import "./contact-me.styles.scss";
+import "./projects.styles.scss";
 
 export default function ContactMe() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.body.className = "bodySection";
     const options = document.body.children[1].firstChild.children[1].children;
     for (let i = 0; i < options.length; i++) {
