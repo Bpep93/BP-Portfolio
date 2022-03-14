@@ -1,21 +1,21 @@
 import React from "react";
 
-import aboutMe from "../../utils/aboutMeData.json";
-
 import "./side-panel.styles.scss";
 
-export default function SidePanel({ children }) {
-  console.log(children);
+export default function SidePanel({ children, props }) {
+  console.log(props);
   return (
     <div className="side-panel">
-      <p className="secTitle">{children}</p>
+      <p className="secTitle">{children ? children : null}</p>
       <div className="details">
-        {aboutMe.map((section, index) => (
-          <section id={index}>
-            <span className="detailTitle">{section.title}</span>
-            <span className="detail"> {section.detail}</span>
-          </section>
-        ))}
+        {props.map(({ details }) =>
+          details.map(({ id, detailTitle, detail }) => (
+            <div className="detailRow" key={id || detailTitle}>
+              <span className="detailTitle">{detailTitle}</span>
+              <span className="detail"> {detail}</span>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );

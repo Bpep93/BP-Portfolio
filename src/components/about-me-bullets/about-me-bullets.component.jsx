@@ -8,10 +8,9 @@ export default function BulletList() {
   return (
     <div className="list">
       {bulletData.map((bullet, index) => (
-        <div className="row">
+        <div className="row" key={index}>
           <div
             className="bulletTitle"
-            id={index}
             style={{ backgroundColor: bullet.bgColor }}
           >
             {bullet.title}

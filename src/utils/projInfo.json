@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Peeps For Pets",
+    "csLink": "https://docs.google.com/presentation/d/1htEdjif_JPe3lV2F5_eaRKxtoO-TRrUE2B8rdykKS9Y/edit?usp=sharing",
+    "problem": "Pets being returned to shelters because they do not match with potential owners",
+    "solution": "Creating a process where Users can filter their lifestyle needs/wants in a pet",
+    "result": "An app that matches Users with pets based on needs/wants and shows nearby locations all in one product, reducing the rate in which pets are returned to shelters",
+    "details": [
+      {
+        "detailTitle": "This product",
+        "detail": "was designed by animal lovers to eliminate the rate in which pets are returned to shelters."
+      },
+      {
+        "detailTitle": "Over the course",
+        "detail": "of three weeks and using the design process, Peeps For Pets allows it’s Users and Stakeholders to match pets with potential homes, communicate with one another, and schedule meetups in nearby locations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Nourish",
+    "csLink": "https://docs.google.com/presentation/d/1sKQusaxX6htT8X8N2D4hr-NcApbdUcdI7BNnN-NJctU/edit?usp=sharing",
+    "problem": "Users have limited resources and knowledge to living and choosing sustainably that could deeply impact the environment",
+    "solution": "A process in which Users can learn about sustainable living and choose sustainable products from their favorite stores",
+    "result": "An app that allows its Users to be informed, shop their favorites stores, find sustainable products, and purchase them all in one place.",
+    "details": [
+      {
+        "detailTitle": "Nourish",
+        "detail": "was developed to allow Users a way to sustainably shop at their favorite stores on one platform. "
+      },
+      {
+        "detailTitle": "By researching,",
+        "detail": "brainstorming, and testing, this project allows its Users to browse, filter, favorite, check out, and choose a pickup location in the app.  It also features a greenscore on products and how to have a more sustainable living. "
+      }
+    ]
+  }
+]

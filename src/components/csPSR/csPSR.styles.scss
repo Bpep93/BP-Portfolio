@@ -1,0 +1,20 @@
+.psrRows {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+
+  .psrRow {
+    display: flex;
+    margin: 5%;
+    border-bottom: 1px solid black;
+
+    .psrTitle {
+      font-size: 1.6rem;
+    }
+
+    .strongTitle {
+      font-weight: bolder;
+    }
+  }
+}

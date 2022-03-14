@@ -1,5 +1,7 @@
 import React, { useLayoutEffect } from "react";
 
+import aboutMe from "../../utils/aboutMeData.json";
+
 import SidePanel from "../../components/side-panel/side-panel.component";
 import BulletList from "../../components/about-me-bullets/about-me-bullets.component";
 
@@ -22,6 +24,9 @@ export default function AboutPage() {
               <strong>About</strong> Me
             </span>
           }
+          props={aboutMe.map((section) => {
+            return section;
+          })}
         />
         <BulletList />
       </div>

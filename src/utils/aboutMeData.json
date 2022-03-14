@@ -1,18 +1,26 @@
 [
   {
-    "title": "UX/UI Designer",
-    "detail": "with a design background in cake design, interior design, and a certificate from the University of Denver in Colorado. Skills that include conducting research, interviews, surveys, sketches, wireframes, prototyping, and HTML/CSS."
-  },
-  {
-    "title": "Using the design process",
-    "detail": "empathy, define, ideate, prototype, and testing to build out designs that work for both the user and the stakeholder."
-  },
-  {
-    "title": "Strongest skills",
-    "detail": "include research based designs that also meet accessibility standards, a team player who listens but also a leader when needed, and an incredibly self-motivated individual who is driven by ambition and the desire to always give their best. "
-  },
-  {
-    "title": "As a UX Researcher",
-    "detail": "for Peeps For Pets, developed an idea that solved issues that exist for both Users and Stakeholders.  As a UX/UI Designer for Nourish, took a leadership role in the UI department to build a functional and aesthetically pleasing design by deadline."
+    "details": [
+      {
+        "id": 1,
+        "detailTitle": "UX/UI Designer",
+        "detail": "with a design background in cake design, interior design, and a certificate from the University of Denver in Colorado. Skills that include conducting research, interviews, surveys, sketches, wireframes, prototyping, and HTML/CSS."
+      },
+      {
+        "id": 2,
+        "detailTitle": "Using the design process",
+        "detail": "empathy, define, ideate, prototype, and testing to build out designs that work for both the user and the stakeholder."
+      },
+      {
+        "id": 3,
+        "detailTitle": "Strongest skills",
+        "detail": "include research based designs that also meet accessibility standards, a team player who listens but also a leader when needed, and an incredibly self-motivated individual who is driven by ambition and the desire to always give their best. "
+      },
+      {
+        "id": 4,
+        "detailTitle": "As a UX Researcher",
+        "detail": "for Peeps For Pets, developed an idea that solved issues that exist for both Users and Stakeholders.  As a UX/UI Designer for Nourish, took a leadership role in the UI department to build a functional and aesthetically pleasing design by deadline."
+      }
+    ]
   }
 ]
