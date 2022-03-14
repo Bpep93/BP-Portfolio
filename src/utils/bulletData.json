@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Empathize",
+    "detail": "Learn about the Users/Customer",
+    "bgColor": "#653941"
+  },
+  {
+    "title": "Define",
+    "detail": "Research, Interview, and construct point of view",
+    "bgColor": "#844D57"
+  },
+  {
+    "title": "Ideate",
+    "detail": "Brainstorm solutions to solve the issue",
+    "bgColor": "#A7626F"
+  },
+  {
+    "title": "Prototype",
+    "detail": "Build and refine product",
+    "bgColor": "#C97A88"
+  },
+  {
+    "title": "Test",
+    "detail": "Put product out for Users and recieve feeback",
+    "bgColor": "#DE8898"
+  }
+]

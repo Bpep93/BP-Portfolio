@@ -1,0 +1,25 @@
+.list {
+  width: 45%;
+  margin-left: auto;
+  font-family: Roboto;
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+
+    .bulletTitle {
+      width: 125px;
+      height: 125px;
+      line-height: 125px;
+      border-radius: 50%;
+      color: #e5e5e5;
+      text-align: center;
+    }
+
+    .bulletSection {
+      margin: auto;
+      font-size: large;
+    }
+  }
+}
