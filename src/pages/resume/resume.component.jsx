@@ -1,5 +1,7 @@
 import React, { useLayoutEffect } from "react";
 
+import pdfResume from "../../utils/BriPepperResume.pdf";
+
 import "./resume.styles.scss";
 
 export default function Resume() {
@@ -10,5 +12,15 @@ export default function Resume() {
       options[i].className = "option";
     }
   }, []);
-  return <></>;
+  return (
+    <iframe
+      className="resume"
+      src={pdfResume}
+      frameBorder="0"
+      scrolling="auto"
+      title="Bri Pepper Resume"
+      allow="fullscreen"
+      align
+    ></iframe>
+  );
 }
