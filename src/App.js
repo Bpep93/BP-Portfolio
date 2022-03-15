@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route exact path="/" component={Homepage} />
+        <Route exact path="/BP-Portfolio" component={Homepage} />
         <Route path="/aboutme" component={AboutPage} />
         <Route path="/projects" component={ProjectsPage} />
         <Route path="/resume" component={Resume} />

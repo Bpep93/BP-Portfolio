@@ -2,7 +2,7 @@
   "name": "bp-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bpep93.github.io/",
+  "homepage": "https://Bpep93.github.io/BP-Portfolio",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
