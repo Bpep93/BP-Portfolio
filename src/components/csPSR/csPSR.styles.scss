@@ -6,15 +6,19 @@
 
   .psrRow {
     display: flex;
-    margin: 5%;
     border-bottom: 1px solid black;
 
     .psrTitle {
       font-size: 1.6rem;
-    }
 
-    .strongTitle {
-      font-weight: bolder;
+      .strongTitle {
+        font-weight: bolder;
+      }
+    }
+    .psrDetail {
+      width: 75%;
+      text-align: center;
+      margin: auto;
     }
   }
 }

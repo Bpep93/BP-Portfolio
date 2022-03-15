@@ -16,12 +16,21 @@ export default function ProjectsPage() {
   }, []);
   return (
     <div className="projPage">
-      {projInfo.map(({ id, details, ...otherProps }) => {
-        console.log("id", id, "details", details, "others", otherProps);
+      {projInfo.map(({ id, details, csLink, title, ...otherProps }) => {
+        // console.log("id", id, "details", details, csLink, "others", otherProps);
+        const link = { csLink };
         return (
           <div className="proj" key={id}>
-            <SidePanel props={details} />
-            <CSPSR props={otherProps} />
+            <div className="projTitle">
+              <span>
+                <strong>{title}</strong>
+                <br /> Case Study
+              </span>
+            </div>
+            <div className="projInfo">
+              <SidePanel className="projSide" props={details} link={link} />
+              <CSPSR className="projPsr" props={otherProps} />
+            </div>
           </div>
         );
       })}

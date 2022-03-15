@@ -1,4 +1,26 @@
-.projPage {
-  display: flex;
-  justify-content: center;
+.proj {
+  margin-bottom: 3%;
+
+  .projTitle {
+    margin-left: 3%;
+    margin-bottom: 8px;
+    font-size: 2.4rem;
+  }
+
+  .projInfo {
+    display: flex;
+    justify-content: center;
+
+    .projSide {
+      height: 100%;
+    }
+  }
+
+  .secTitle {
+    display: none;
+  }
+
+  .side-panel {
+    margin: auto;
+  }
 }
