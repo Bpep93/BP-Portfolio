@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/BP-Portfolio/static/css/main.43b3250e.css",
-    "main.js": "/BP-Portfolio/static/js/main.591ad1ba.js",
-    "static/js/787.26bc7f7d.chunk.js": "/BP-Portfolio/static/js/787.26bc7f7d.chunk.js",
-    "static/media/BriPepperResume.pdf": "/BP-Portfolio/static/media/BriPepperResume.47f408331e416ea1ae60.pdf",
-    "static/media/BP-Logo.svg": "/BP-Portfolio/static/media/BP-Logo.1d613b48c82be6fcacc101f4f416e633.svg",
-    "index.html": "/BP-Portfolio/index.html",
-    "main.43b3250e.css.map": "/BP-Portfolio/static/css/main.43b3250e.css.map",
-    "main.591ad1ba.js.map": "/BP-Portfolio/static/js/main.591ad1ba.js.map",
-    "787.26bc7f7d.chunk.js.map": "/BP-Portfolio/static/js/787.26bc7f7d.chunk.js.map"
+    "main.css": "/static/css/main.43b3250e.css",
+    "main.js": "/static/js/main.a23f72af.js",
+    "static/js/787.26bc7f7d.chunk.js": "/static/js/787.26bc7f7d.chunk.js",
+    "static/media/BriPepperResume.pdf": "/static/media/BriPepperResume.47f408331e416ea1ae60.pdf",
+    "static/media/BP-Logo.svg": "/static/media/BP-Logo.1d613b48c82be6fcacc101f4f416e633.svg",
+    "index.html": "/index.html",
+    "main.43b3250e.css.map": "/static/css/main.43b3250e.css.map",
+    "main.a23f72af.js.map": "/static/js/main.a23f72af.js.map",
+    "787.26bc7f7d.chunk.js.map": "/static/js/787.26bc7f7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43b3250e.css",
-    "static/js/main.591ad1ba.js"
+    "static/js/main.a23f72af.js"
   ]
 }
