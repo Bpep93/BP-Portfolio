@@ -1,10 +1,10 @@
 import React from "react";
 
+import CustomButton from "../../components/custom-btn/custom-btn.component";
+
 import "./side-panel.styles.scss";
 
 export default function SidePanel({ children, props, link }) {
-  // console.log(props, !link);
-
   const { csLink } = !link ? "" : link;
 
   return (
@@ -30,8 +30,13 @@ export default function SidePanel({ children, props, link }) {
                 </div>
               );
             })}
-            <a className="projLink" href={csLink}>
-              Clink here to view full case study
+            <a className="projLink" href={csLink} target="_blank">
+              <CustomButton inverted>
+                {csLink ===
+                "https://docs.google.com/document/d/1PziuB3phmstx4OxUqmA1u_pZmF_dvwPhk0WOAC-rEEE/edit?usp=sharing"
+                  ? "View Resume"
+                  : "View Full Case Study"}
+              </CustomButton>
             </a>
           </div>
         )}

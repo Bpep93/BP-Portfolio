@@ -3,7 +3,7 @@ import React, { useLayoutEffect } from "react";
 import projInfo from "../../utils/projInfo.json";
 import SidePanel from "../../components/side-panel/side-panel.component";
 import CSPSR from "../../components/csPSR/csPSR.component";
-
+import CaseStudyImages from "../../components/case-study-images/case-study-images.component";
 import "./projects.styles.scss";
 
 export default function ProjectsPage() {
@@ -16,24 +16,27 @@ export default function ProjectsPage() {
   }, []);
   return (
     <div className="projPage">
-      {projInfo.map(({ id, details, csLink, title, ...otherProps }) => {
-        // console.log("id", id, "details", details, csLink, "others", otherProps);
-        const link = { csLink };
-        return (
-          <div className="proj" key={id}>
-            <div className="projTitle">
-              <span>
-                <strong>{title}</strong>
-                <br /> Case Study
-              </span>
+      {projInfo.map(
+        ({ id, details, csLink, title, projImgs, ...otherProps }) => {
+          // console.log("id", id, "details", details, csLink, "others", otherProps);
+          const link = { csLink };
+          return (
+            <div className="proj" key={id}>
+              <div className="projTitle">
+                <span>
+                  <strong>{title}</strong>
+                  <br /> Case Study
+                </span>
+              </div>
+              <div className="projInfo">
+                <SidePanel className="projSide" props={details} link={link} />
+                <CSPSR className="projPsr" props={otherProps} />
+              </div>
+              <CaseStudyImages projImgs={projImgs} title={title} />
             </div>
-            <div className="projInfo">
-              <SidePanel className="projSide" props={details} link={link} />
-              <CSPSR className="projPsr" props={otherProps} />
-            </div>
-          </div>
-        );
-      })}
+          );
+        }
+      )}
     </div>
   );
 }

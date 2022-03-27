@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Resume",
+    "csLink": "https://docs.google.com/document/d/1PziuB3phmstx4OxUqmA1u_pZmF_dvwPhk0WOAC-rEEE/edit?usp=sharing",
+    "details": [
+      {
+        "detailTitle": "Contact me",
+        "detail": " via email at bripepr@gmail.com"
+      },
+      {
+        "detailTitle": "Let’s get connected",
+        "detail": "on LinkedIn at https://www.linkedin.com/in/bri-pepper/"
+      }
+    ],
+    "projImgs": [
+      {
+        "id": 3,
+        "imgLocation": "/images/CADD9FFF02EB497DA624C629DBD241A8.jpg",
+        "altTag": "Resume Image"
+      }
+    ]
+  }
+]

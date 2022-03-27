@@ -50,13 +50,9 @@ export default function Homepage() {
         <PortfolioImg />
         <p className="img-para">
           I am a UX/UI Designer residing in Denver, Colorado with a certificate
-          from the University of Denver. Design has always been second nature to
-          me, from my joy of freelance art to becoming a professional cake
-          designer, I’ve always had a steady passion to create. Along wiht my
-          experience in the design realm, I’ve spebt some time in the health
-          care and have developed the ability to really empathize with
-          indidviduals and their daily struggles. It’s only natural that I found
-          my passion for UX/UI Design.
+          from the University of Denver. Using the Design process, Empathy,
+          Define, Ideate, Prototype, and Test to build out designs that create a
+          more functional and enjoyable experience.
         </p>
       </div>
     </>
