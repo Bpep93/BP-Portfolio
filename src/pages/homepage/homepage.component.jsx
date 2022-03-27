@@ -29,7 +29,7 @@ export default function Homepage() {
         <div className="btns">
           <CustomButton
             onClick={() => {
-              history.push("/projects");
+              history.push("/BP-Portfolio/projects");
             }}
             type="button"
           >
@@ -38,7 +38,7 @@ export default function Homepage() {
           <CustomButton
             inverted
             onClick={() => {
-              history.push("/resume");
+              history.push("/BP-Portfolio/resume");
             }}
             type="button"
           >
