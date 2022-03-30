@@ -4,6 +4,9 @@ import CustomButton from "../../components/custom-btn/custom-btn.component";
 
 import "./side-panel.styles.scss";
 
+const pdfGoogleLink =
+  "https://drive.google.com/file/d/1z3ZxZDaclF032OMtqbjMU2RNw16A2as6/view";
+
 export default function SidePanel({ children, props, link }) {
   const { csLink } = !link ? "" : link;
 
@@ -32,8 +35,7 @@ export default function SidePanel({ children, props, link }) {
             })}
             <a className="projLink" href={csLink} target="_blank">
               <CustomButton inverted>
-                {csLink ===
-                "https://docs.google.com/document/d/1PziuB3phmstx4OxUqmA1u_pZmF_dvwPhk0WOAC-rEEE/edit?usp=sharing"
+                {csLink === pdfGoogleLink
                   ? "View Resume"
                   : "View Full Case Study"}
               </CustomButton>
