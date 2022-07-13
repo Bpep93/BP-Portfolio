@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/BP-Portfolio/static/css/main.465fbdf6.css",
-    "main.js": "/BP-Portfolio/static/js/main.e245a849.js",
+    "main.js": "/BP-Portfolio/static/js/main.d4b50bdc.js",
     "static/js/787.26bc7f7d.chunk.js": "/BP-Portfolio/static/js/787.26bc7f7d.chunk.js",
-    "static/media/Bri-Pepper-Resume.pdf": "/BP-Portfolio/static/media/Bri-Pepper-Resume.19dd1ab523704ac05730.pdf",
     "static/media/BP-Logo.svg": "/BP-Portfolio/static/media/BP-Logo.1d613b48c82be6fcacc101f4f416e633.svg",
     "index.html": "/BP-Portfolio/index.html",
     "main.465fbdf6.css.map": "/BP-Portfolio/static/css/main.465fbdf6.css.map",
-    "main.e245a849.js.map": "/BP-Portfolio/static/js/main.e245a849.js.map",
+    "main.d4b50bdc.js.map": "/BP-Portfolio/static/js/main.d4b50bdc.js.map",
     "787.26bc7f7d.chunk.js.map": "/BP-Portfolio/static/js/787.26bc7f7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.465fbdf6.css",
-    "static/js/main.e245a849.js"
+    "static/js/main.d4b50bdc.js"
   ]
 }
