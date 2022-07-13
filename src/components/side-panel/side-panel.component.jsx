@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import CustomButton from "../../components/custom-btn/custom-btn.component";
 
@@ -13,7 +14,11 @@ export default function SidePanel({ children, props, link }) {
   return (
     <div className="side-panel">
       <p className="secTitle">{children ? children : null}</p>
-      <div className="details">
+      <motion.div
+        className="details"
+        whileHover={{ scale: 1.025 }}
+        whileTap={{ scale: 0.9 }}
+      >
         {props.length === 1 ? (
           props.map(({ details }) =>
             details.map(({ id, detailTitle, detail }) => (
@@ -33,7 +38,12 @@ export default function SidePanel({ children, props, link }) {
                 </div>
               );
             })}
-            <a className="projLink" href={csLink} target="_blank">
+            <a
+              className="projLink"
+              href={csLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               <CustomButton inverted>
                 {csLink === pdfGoogleLink
                   ? "View Resume"
@@ -42,7 +52,7 @@ export default function SidePanel({ children, props, link }) {
             </a>
           </div>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 }

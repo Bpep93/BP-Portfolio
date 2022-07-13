@@ -4,8 +4,6 @@ import SidePanel from "../../components/side-panel/side-panel.component";
 
 import resumeInfo from "../../utils/resumeData.json";
 
-import pdfResume from "../../utils/Bri-Pepper-Resume.pdf";
-
 import "./resume.styles.scss";
 
 export default function Resume() {

@@ -18,7 +18,6 @@ export default function ProjectsPage() {
     <div className="projPage">
       {projInfo.map(
         ({ id, details, csLink, title, projImgs, ...otherProps }) => {
-          // console.log("id", id, "details", details, csLink, "others", otherProps);
           const link = { csLink };
           return (
             <div className="proj" key={id}>
